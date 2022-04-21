@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    background-color: aqua;
+}
+
+menu{
+    background-color: blue;
+}
+
+main{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: brown;
+}
