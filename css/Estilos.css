@@ -8,18 +8,31 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.maquetado{
+    display: grid;
+    grid-area: 
+    "header header"
+    "menu menu"
+    "main main"
+    "footer footer";
+}
+
 header{
     background-color: aqua;
+    grid-area: header;
 }
 
 menu{
     background-color: blue;
+    grid-area: menu;
 }
 
 main{
     background-color: blueviolet;
+    grid-area: main;
 }
 
 footer{
     background-color: brown;
+    grid-area: footer;
 }
