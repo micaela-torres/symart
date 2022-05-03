@@ -12,32 +12,74 @@ header{
     background-image: url(../imagenes/fondo.png) ;
 }
 
+h1{
+    color: #d97336;
+    align-items: center;
+    font-weight: 600;
+}
+
+h2{
+    font-weight: 200;
+}
+
 .encabezado{
    display: flex;
    flex-direction: row;
    align-items: center;
 }
 
-.encabezado--imagen{
-    width: 300px;
-    margin: 3rem;
+.encabezado__imagen{
+    width: 500px;
+    margin: 1rem;
 }
 
 .encabezado--texto{
     align-items: center;
-    margin: 5rem;
+    margin-left: 3rem;
+    background-color: aqua;
 }
 
 menu{
-    background-color: blue;
+    /* background-color: blue; */
     
 }
 
 main{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     
+}
+
+.cuerpoinicio{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+}
+
+.video{
+    width: 700px;
+}
+
+.texto{
+    margin-left: 6rem;
+    text-align: center;
+    margin-left: 5rem;
 }
 
 footer{
     background-image: url(../imagenes/fondo.png) ;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo__despedida{
+    width: 200px;
+    margin-left: 5rem;
+}
+.despedida__texto{
+    margin-left: 250px;
+    text-align: center;
+    /* background-color: aqua; */
 }
