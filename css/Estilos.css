@@ -8,31 +8,36 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.maquetado{
-    display: grid;
-    grid-area: 
-    "header header"
-    "menu menu"
-    "main main"
-    "footer footer";
+header{
+    background-image: url(../imagenes/fondo.png) ;
 }
 
-header{
-    background-color: aqua;
-    grid-area: header;
+.encabezado{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.encabezado--imagen{
+    width: 300px;
+    margin: 3rem;
+}
+
+.encabezado--texto{
+    align-items: center;
+    margin: 5rem;
 }
 
 menu{
     background-color: blue;
-    grid-area: menu;
+    
 }
 
 main{
     background-color: blueviolet;
-    grid-area: main;
+    
 }
 
 footer{
-    background-color: brown;
-    grid-area: footer;
+    background-image: url(../imagenes/fondo.png) ;
 }
