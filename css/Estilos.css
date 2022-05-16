@@ -24,6 +24,7 @@ h2{
     font-weight: 400;
     text-align: center;
 }
+
 p{
     text-align: justify;
     font-weight: 200;
@@ -99,6 +100,7 @@ main{
     "marca7 marca8 marca9";
     justify-content: center;
     gap: 1em;
+    
 }
 
 .grid__hijo--1{

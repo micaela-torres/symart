@@ -1,0 +1,5 @@
+.encabezado {
+  background-image: url(../imagenes/fondo.png);
+  display: flex;
+  flex-direction: row;
+  align-items: center; }

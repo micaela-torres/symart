@@ -1,0 +1,17 @@
+.encabezado{
+    background-image: url(../imagenes/fondo.png);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__imagen{
+        width: 450px;
+        margin: 1rem;
+        margin-left: 3rem;
+    }
+
+    &__texto{
+        align-items: center;
+        margin-left: 3rem;
+    }
+}

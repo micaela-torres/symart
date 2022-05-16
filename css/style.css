@@ -1,0 +1,181 @@
+.final {
+  background-image: url(../imagenes/fondo.png);
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .final__imagen {
+    width: 200px;
+    margin-left: 5rem; }
+  .final__texto {
+    margin-left: 250px;
+    text-align: center; }
+
+.tarjetadeconsulta {
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+
+.representantes {
+  align-items: center;
+  margin: 50px; }
+  .representantes h2 {
+    margin-top: 3rem; }
+  .representantes p {
+    margin: 1rem; }
+
+.oferta {
+  margin: 5rem;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+
+.marcos {
+  margin: 5rem;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+
+.botones {
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 7rem; }
+  .botones__1 {
+    margin-right: 7rem; }
+
+.productoslogos {
+  width: 80%;
+  height: 80%;
+  margin: 3px; }
+
+.grid {
+  border: 3px solid black;
+  padding: 1rem;
+  margin: 3rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100 px);
+  grid-area: "marca1 marca2 marca3" "marca4 marca5 marca6" "marca7 marca8 marca9";
+  justify-content: center;
+  gap: 1em; }
+  .grid__hijo--1 {
+    grid-area: marca1; }
+  .grid__hijo--2 {
+    grid-area: marca2; }
+  .grid__hijo--3 {
+    grid-area: marca3; }
+  .grid__hijo--4 {
+    grid-area: marca4; }
+  .grid__hijo--5 {
+    grid-area: marca5; }
+  .grid__hijo--6 {
+    grid-area: marca6; }
+  .grid__hijo--7 {
+    grid-area: marca7; }
+  .grid__hijo--8 {
+    grid-area: marca8; }
+  .grid__hijo--9 {
+    grid-area: marca9; }
+
+.marca-secundaria {
+  border: 3px solid black;
+  padding: 1rem;
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 100 px);
+  grid-area: "logo1 logo2 logo3 logo4" "logo5 logo6 logo7 logo8" "logo9 logo10 logo11 logo12";
+  justify-content: center;
+  gap: 1em; }
+  .marca-secundaria__hijo--1 {
+    grid-area: logo1;
+    align-items: center; }
+  .marca-secundaria__hijo--2 {
+    grid-area: logo2; }
+  .marca-secundaria__hijo--3 {
+    grid-area: logo3; }
+  .marca-secundaria__hijo--4 {
+    grid-area: logo4; }
+  .marca-secundaria__hijo--5 {
+    grid-area: logo5; }
+  .marca-secundaria__hijo--6 {
+    grid-area: logo6; }
+  .marca-secundaria__hijo--7 {
+    grid-area: logo7; }
+  .marca-secundaria__hijo--8 {
+    grid-area: logo8; }
+  .marca-secundaria__hijo--9 {
+    grid-area: logo9; }
+  .marca-secundaria__hijo--10 {
+    grid-area: logo10; }
+  .marca-secundaria__hijo--11 {
+    grid-area: logo11; }
+  .marca-secundaria__hijo--12 {
+    grid-area: logo12; }
+
+.animaciones {
+  overflow: hidden; }
+
+.animaciones .marcas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.animaciones:hover .marcas {
+  animation-name: marcas;
+  animation-duration: 1s;
+  animation-direction: alternate; }
+
+@keyframes marcas {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(2); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+h1 {
+  color: #d97336;
+  text-align: center;
+  font-weight: 600; }
+
+h2 {
+  text-align: center;
+  font-weight: 400; }
+
+.cuerpoinicio {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem; }
+  .cuerpoinicio__video {
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+  .cuerpoinicio__texto {
+    margin-left: 6rem;
+    text-align: center;
+    margin-left: 5rem; }
+    .cuerpoinicio__texto p {
+      text-align: justify;
+      margin-top: 3rem; }
+
+.encabezado {
+  background-image: url(../imagenes/fondo.png);
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .encabezado__imagen {
+    width: 450px;
+    margin: 1rem;
+    margin-left: 3rem; }
+  .encabezado__texto {
+    align-items: center;
+    margin-left: 3rem; }

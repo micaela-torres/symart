@@ -1,0 +1,16 @@
+.final{
+    background-image: url(../imagenes/fondo.png);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    &__imagen{
+        width: 200px;
+        margin-left: 5rem;
+    }
+
+    &__texto{
+        margin-left: 250px;
+        text-align: center;
+    }
+}
