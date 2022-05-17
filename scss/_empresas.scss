@@ -129,3 +129,32 @@
         transform: scale(2);
     }
 }
+
+@media (max-width: 1023px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5,100 px);
+        text-align: center;
+    }
+    
+    .marca-secundaria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6,100 px);
+        text-align: center;   
+    }
+}
+
+@media (max-width: 600px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9,100 px);
+        text-align: center;
+    }
+    
+    .marca-secundaria{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12,100 px);
+        text-align: center;   
+    }
+
+}

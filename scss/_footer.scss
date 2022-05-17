@@ -14,3 +14,15 @@
         text-align: center;
     }
 }
+
+@media (max-width: 1023px){
+    .final{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    .final__texto{
+        display: none;
+    }
+}

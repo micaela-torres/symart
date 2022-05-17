@@ -19,3 +19,16 @@
         }
     }
 }
+
+@media (max-width: 1023px){
+    .cuerpoinicio{
+        flex-direction: column;    
+
+        &__video{
+            width: auto;
+        }
+        &__texto{
+            margin-top: 5rem;
+        }
+    }    
+}

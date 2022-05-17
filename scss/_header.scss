@@ -15,3 +15,34 @@
         margin-left: 3rem;
     }
 }
+
+@media (max-width: 1023px){
+    .encabezado{
+        flex-direction: column;
+    }
+  
+    .encabezado__texto{
+          font-weight: 600;
+          font-size: 30px;  
+    }
+  
+    .encabezado__imagen{
+          width: 300px;
+    }
+} 
+
+@media (max-width: 600px){
+    .encabezado{
+        flex-direction: column;
+    }    
+  
+    .encabezado__texto{
+          font-weight: 400;
+          font-size: 30px;  
+    }
+  
+    .encabezado__imagen{
+          width: 200px;
+    }
+    
+} 
