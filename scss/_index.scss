@@ -6,8 +6,7 @@
     &__video{
         width: 700px;
         height: auto;
-        border-radius: 15px;
-        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+        @extend .sombras;
     }
 
     &__texto{

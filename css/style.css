@@ -12,9 +12,7 @@
 
 .tarjetadeconsulta {
   margin-left: 150px;
-  margin-right: 150px;
-  border-radius: 15px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+  margin-right: 150px; }
 
 .representantes {
   align-items: center;
@@ -25,14 +23,10 @@
     margin: 1rem; }
 
 .oferta {
-  margin: 5rem;
-  border-radius: 15px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+  margin: 5rem; }
 
 .marcos {
-  margin: 5rem;
-  border-radius: 15px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+  margin: 5rem; }
 
 .botones {
   align-items: center;
@@ -150,15 +144,85 @@ h2 {
   text-align: center;
   font-weight: 400; }
 
+.sombras, .tarjetadeconsulta, .oferta, .marcos, .cuerpoinicio__video {
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+
+.botones__1 {
+  background-color: #55acee;
+  margin: 0 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px; }
+
+.botones__2 {
+  background-color: #c92d8f;
+  margin: 0 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px; }
+
+@media screen and (max-width: 1023px) {
+  .encabezado {
+    flex-direction: column; }
+    .encabezado__texto {
+      font-weight: 600;
+      font-size: 30px; }
+    .encabezado__imagen {
+      width: 300px; }
+  .cuerpoinicio {
+    flex-direction: column; }
+    .cuerpoinicio__texto {
+      margin-top: 2rem;
+      margin: 1rem; }
+    .cuerpoinicio__video {
+      width: 100%; }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 100 px);
+    text-align: center; }
+  .marca-secundaria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 100 px);
+    text-align: center; }
+  .final {
+    align-items: center;
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 600px) {
+  .encabezado {
+    flex-direction: column; }
+    .encabezado__imagen {
+      width: 300px; }
+    .encabezado__texto {
+      font-weight: 600;
+      font-size: 30px; }
+  .cuerpoinicio {
+    flex-direction: column; }
+    .cuerpoinicio__texto {
+      margin-top: 1rem;
+      margin: 1rem; }
+    .cuerpoinicio__video {
+      width: 100%; }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 100 px);
+    text-align: center; }
+  .marca-secundaria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 100 px);
+    text-align: center; }
+  .final__texto {
+    display: none; } }
+
 .cuerpoinicio {
   display: flex;
   flex-direction: row;
   margin: 3rem; }
   .cuerpoinicio__video {
     width: 700px;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
+    height: auto; }
   .cuerpoinicio__texto {
     margin-left: 6rem;
     text-align: center;
