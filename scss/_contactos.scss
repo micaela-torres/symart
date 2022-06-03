@@ -15,3 +15,19 @@
         margin: 1rem;
     }
 }
+
+@media (max-width: 1023px){
+
+    .tarjetadeconsulta{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 600px){
+   .tarjetadeconsulta{
+       margin-left: 50px;
+       margin-right: 50px;
+   } 
+}
+

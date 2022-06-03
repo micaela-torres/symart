@@ -12,3 +12,18 @@
         margin-right: 7rem;
     }
 }
+
+@media (max-width: 1023px){
+    .marcos{
+        margin: 3rem;
+    }
+}
+@media (max-width: 600px){
+    .botones{
+        display: flex;
+        flex-direction: column;
+    }
+    .marcos{
+        margin: 2rem;
+    }
+}
